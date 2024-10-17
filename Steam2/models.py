@@ -85,7 +85,5 @@ class ColeccionBibliotecaJuego(models.Model):
     fecha_adicion = models.DateTimeField(default=timezone.now)  
     comentario = models.TextField(null=True, blank=True)
 
-    class Meta:
-        unique_together = (('coleccion', 'biblioteca', 'juego'),)
 
 
