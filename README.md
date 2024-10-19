@@ -1,9 +1,7 @@
 # Aplicacion Web Parte I Inicio y Modelos
 Tarea de "Aplicación Web Parte 1 -Inicio y Modelos".
 
-# Definir en qué consistirá mi página Web
-
-## Steam  2
+# Steam  2
 
 -Mi página web estará basada en una plataforma de videojuegos en la nube, llamada Steam2.
 Esta nueva versión de Steam permitirá a los usuarios acceder a sus juegos desde cualquier dispositivo con conexión a Internet, como ya hacen otros servicios de streaming como "Geforce now" sin necesidad de descargar ni instalar los juegos en sus equipos.Steam2 funcionará de manera similar a la plataforma original, pero con la ventaja de ofrecer streaming de videojuegos, lo que facilitará el acceso a los títulos en tiempo real, optimizando la experiencia de juego para aquellos con dispositivos de menor capacidad.La idea es que los usuarios puedan disfrutar de su biblioteca de juegos desde cualquier lugar y en cualquier momento, sin depender de hardware específico.
@@ -139,7 +137,7 @@ Esta nueva versión de Steam permitirá a los usuarios acceder a sus juegos desd
 
   ---
 
-# Modelo Entidad-Relación
+## Modelo Entidad-Relación
 (https://github.com/DavidRiosV/Aplicacion-Web-Parte-I-Inicio-y-Modelos/blob/main/EntidadRelacionSteam2.drawio.png)
 
   ---
