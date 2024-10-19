@@ -138,7 +138,4 @@ Esta nueva versión de Steam permitirá a los usuarios acceder a sus juegos desd
 - Vincula colecciones y bibliotecas con juegos (ManyToMany a través de la tabla intermedia)
 
 # Modelo Entidad-Relación
-
-A continuación se muestra el diagrama del Modelo Entidad-Relación (MER) de la aplicación, que representa las entidades principales del sistema y sus relaciones.
-
-file:///home/david/2DAW/DWC%20(Mercedes)/EntidadRelacionSteam2.webp
+(https://github.com/DavidRiosV/Aplicacion-Web-Parte-I-Inicio-y-Modelos/blob/main/EntidadRelacionSteam2.drawio.png)
