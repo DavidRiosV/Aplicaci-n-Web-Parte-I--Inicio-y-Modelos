@@ -137,5 +137,46 @@ Esta nueva versión de Steam permitirá a los usuarios acceder a sus juegos desd
 **Relaciones**:
 - Vincula colecciones y bibliotecas con juegos (ManyToMany a través de la tabla intermedia)
 
+  ---
+
 # Modelo Entidad-Relación
 (https://github.com/DavidRiosV/Aplicacion-Web-Parte-I-Inicio-y-Modelos/blob/main/EntidadRelacionSteam2.drawio.png)
+
+  ---
+  
+## Explicación del Modelo ER
+
+### 1. Relaciones (1,1)
+- **Usuario - Carrito**: Un usuario tiene un carrito, y este carrito pertenece exclusivamente a ese usuario.
+  - **Tipo de relación:** OneToOne.
+  
+- **Usuario - Biblioteca**: Un usuario tiene una biblioteca, y esa biblioteca es única y personal de cada usuario.
+  - **Tipo de relación:** OneToOne.
+  
+- **Usuario - Puntos**: Los puntos acumulados por un usuario son exclusivos de ese usuario.
+  - **Tipo de relación:** OneToOne.
+
+---
+
+### 2. Relaciones (1,M)
+- **Juego - Distribuidora**: Cada juego pertenece a una única distribuidora, pero una distribuidora puede tener muchos juegos.
+  - **Tipo de relación:** ManyToOne.
+
+- **Perfil - Usuario**: Un perfil está asociado a un usuario, pero un usuario puede tener múltiples perfiles (por ejemplo, en diferentes juegos o grupos).
+  - **Tipo de relación:** ManyToOne.
+
+- **Juego - Tienda**: Los juegos pertenecen a una tienda, pero una tienda puede tener múltiples juegos a la venta.
+  - **Tipo de relación:** ManyToOne.
+
+---
+
+### 3. Relaciones (M,M)
+- **Usuario - Juegos**: Un usuario puede adquirir muchos juegos, y los juegos pueden ser adquiridos por muchos usuarios.
+  - **Tipo de relación:** ManyToMany.
+
+- **Usuario - Amigos**: Un usuario puede tener múltiples amigos, y cada amigo puede tener múltiples amigos en común con otros usuarios.
+  - **Tipo de relación:** ManyToMany.
+
+- **Colección - Biblioteca - Juegos**: Una biblioteca puede tener muchas colecciones, y una colección puede estar en muchas bibliotecas. Además, cada colección puede contener uno o más juegos.
+  - **Tipo de relación:** ManyToMany (con tabla intermedia).
+
